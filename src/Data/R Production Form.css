@@ -1,0 +1,173 @@
+#r-body-lightmode{
+                  background-color: #fffafa;
+                  margin: none;
+                  padding: none;
+                  justify-content: center;
+                  width: 98.9vw;
+                  height: auto;
+                  position: absolute;
+                 }
+#r-body-darkmode{
+                 background-color: black;            
+                 margin: none;
+                 padding: none;
+                 justify-content: center;
+                 width: 98.9vw;
+                 height: auto;
+                 position: absolute;
+                }
+#r-h1{
+      background-color: rgb(21, 167, 21);
+      border: none;
+      font-size: 3rem;
+      text-align: center;
+      color: yellow;
+     }
+.r-form-container-lightmode{
+                            float: left;
+                            width: 50%;
+                            height: 100rem;
+                            background-color: #f6f0f0;
+                            height: auto;
+                            overflow-y: auto;
+                           }
+.r-form-container-darkmode{
+                           float: left;
+                           width: 50%;
+                           height: 100rem;
+                           background-color: rgb(4, 4, 56);
+                           height: auto;
+                           overflow-y: auto;
+                          }
+.r-lebel-divs{
+              margin-top: 1rem;
+              text-align: center;
+              font-size: larger;
+             }
+.r-label-lightmode{
+                   color: black;
+                  }
+.r-label-darkmode{
+                  color: greenyellow;
+                 }
+.r-select-divs{
+               margin-top: 1vmin;
+               margin-bottom: 1rem;
+               text-align: center;
+              }
+.r-select-inputs-lightmode{             
+                           width: 40rem;
+                           height: 2.5rem;
+                           font-size: 3vmin;
+                           font-weight: bolder;
+                           background-color: #fffafa;
+                           color: black;
+                          }
+.r-select-inputs-darkmode{             
+                           width: 40rem;
+                           height: 2.5rem;
+                           font-size: 3vmin;
+                           font-weight: bolder;
+                           background-color: black;
+                           color: greenyellow;
+                          }
+.r-inputs-lightmode{
+                    width: 40rem;
+                    height: 2.5rem;
+                    font-size: 3vmin;
+                    font-weight: bolder;
+                    background-color: #fffafa;
+                    color: black;
+                   }
+.r-inputs-darkmode{
+                   width: 40rem;
+                   height: 2.5rem;
+                   font-size: 3vmin;
+                   font-weight: bolder;
+                   background-color: black;
+                   color: greenyellow;
+                  }
+.r-input-divs{
+              text-align: center;
+             }
+.r-button-div{
+              text-align: center;
+              margin-top: 2rem;
+              margin-bottom: 1rem;
+             }
+.r-button-submit{
+                 font-size: larger;
+                 padding-top: 1vmin;
+                 padding-bottom: 1vmin;
+                 padding-left: 17rem;
+                 padding-right: 17rem;
+                 border: none;
+                 border-radius: 1rem;
+                 background-color: rgb(44, 94, 221);
+                 color: #fffafa;
+                 cursor: pointer;
+                }
+.r-output-container-lightmode{
+                              float: right;
+                              background-color: #fffafa;
+                              width: 50%;
+                              height: auto;
+                             }
+.r-output-container-darkmode{
+                             float: right;
+                             background-color: black;
+                             width: 50%;
+                             height: auto;
+                            }
+.r-button-div{
+                  margin-top: 1vmin;
+                  margin-bottom: 1rem;
+                  margin-right: 1rem;
+                 }
+.r-modebuttonspan{
+                  text-align: center;
+                 }
+.r-modebutton{
+              background-color: green;
+              color: yellow;
+              padding: 0.5rem;
+              border: none;
+              border-radius: 1rem;
+              cursor: pointer;
+             }
+.r-homebuttonspan{
+                  float: right;
+                 }
+.r-homebutton{
+              background-color: green;
+              color: yellow;
+              padding: 1vmin;
+              border: none;
+              border-radius: 1rem;
+              cursor: pointer;
+             }
+#r-submittedsection-div{
+                        text-align: center
+}
+#r-resultarea-lightmode{
+                        background-color: #fffafa;
+                        color: black;
+                        border-color: black;
+                        height: 55vh;
+                        width: 30vw;
+                        margin-left: 1vmin;
+                        margin-right: 1vmin;
+                        margin-top: 1rem;
+                        margin-bottom: 1rem;
+                       }
+#r-resultarea-darkmode{
+                       background-color: rgb(4, 4, 56);
+                       color: greenyellow;
+                       border-color: greenyellow;
+                       height: 55vh;
+                       width: 30vw;
+                       margin-left: 1vmin;
+                       margin-right: 1vmin;
+                       margin-top: 1rem;
+                       margin-bottom: 1rem;
+                      }

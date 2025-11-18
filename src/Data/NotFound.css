@@ -1,0 +1,22 @@
+*{
+  margin: 0;
+  padding: 0;
+ }
+#NF-body{
+         background-color: green;
+         margin: 0;
+         padding: 0;
+         text-align: center;
+         height: 100vh;
+         width: 100vw;
+         position: absolute;
+        }
+#NF-header{
+           color: red;
+           margin-top: 10%;
+           margin-bottom: 10%; 
+           background-color: aliceblue;
+          } 
+#NF-link{
+         color: skyblue;
+        }

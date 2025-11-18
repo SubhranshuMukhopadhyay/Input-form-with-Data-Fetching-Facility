@@ -1,0 +1,43 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: none;
+ }
+.home-body{
+           background-color: green;
+           position: absolute;
+           margin: 0;
+           padding: 0;
+           justify-content: center;
+           height: 100vh;
+           width: 100vw;
+          }
+#home-h1{
+         color: yellow;
+         margin-top: 5%;
+         margin-bottom: 3%;
+         font-size: 5rem;
+         text-align: center;
+        }
+#home-h2{
+         color: white;
+         margin-bottom: 15%;
+         text-align: center;
+        }
+.link-div{
+            text-align: center;
+           }
+span{
+      margin-right: 3rem;
+      margin-left: 3rem;
+      gap: 2rem;
+     }
+a{
+  color: yellow;
+  font-size: 3rem;
+  text-decoration: underline;
+ }
+a:hover{
+        color: blueviolet;
+       }

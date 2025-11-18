@@ -1,0 +1,167 @@
+#s-body-lightmode{
+                  background-color: #fffafa;
+                  margin: none;
+                  padding: none;
+                  justify-content: center;
+                  width: 98.9vw;
+                  height: auto;
+                  position: absolute;
+                 }
+#s-body-darkmode{
+                 background-color: black;            
+                 margin: none;
+                 padding: none;
+                 justify-content: center;
+                 width: 98.9vw;
+                 height: auto;
+                 position: absolute;
+                }
+#s-h1{
+      background-color: rgb(21, 167, 21);
+      border: none;
+      font-size: 3rem;
+      text-align: center;
+      color: yellow;
+     }
+.s-form-container-lightmode{
+                            float: left;
+                            width: 50%;
+                            height: auto;
+                            background-color: #f6f0f0;
+                           }
+.s-form-container-darkmode{
+                           float: left;
+                           width: 50%;
+                           height: auto;
+                           background-color: rgb(4, 4, 56);
+                          }
+.s-lebel-divs{
+              margin-top: 1rem;
+              text-align: center;
+              font-size: larger;
+             }
+.s-label-lightmode{
+                   color: black;
+                  }
+.s-label-darkmode{
+                  color: greenyellow;
+                 }
+.s-select-divs{
+              margin-top: 1vmin;
+              margin-bottom: 1rem;
+              text-align: center;
+             }
+.s-select-inputs-lightmode{             
+                           width: 40rem;
+                           height: 2.5rem;
+                           font-size: 3vmin;
+                           font-weight: bolder;
+                           background-color: #fffafa;
+                           color: black;
+                          }
+.s-select-inputs-darkmode{             
+                           width: 40rem;
+                           height: 2.5rem;
+                           font-size: 3vmin;
+                           font-weight: bolder;
+                           background-color: black;
+                           color: greenyellow;
+                          }
+.s-input-divs{
+              text-align: center;
+             }
+.s-inputs-lightmode{
+                    width: 40rem;
+                    height: 2.5rem;
+                    font-size: 3vmin;
+                    font-weight: bolder;
+                    background-color: #fffafa;
+                    color: black;
+                   }
+.s-inputs-darkmode{
+                   width: 40rem;
+                   height: 2.5rem;
+                   font-size: 3vmin;
+                   font-weight: bolder;
+                   background-color: black;
+                   color: greenyellow;
+                  }
+.s-button-div{
+              text-align: center;
+              margin-top: 2rem;
+             }
+.s-button-submit{
+                 font-size: larger;
+                 padding-top: 1vmin;
+                 padding-bottom: 1vmin;
+                 padding-left: 17rem;
+                 padding-right: 17rem;
+                 border: none;
+                 border-radius: 1rem;
+                 background-color: rgb(44, 94, 221);
+                 color: #fffafa;
+                }
+.s-output-container-lightmode{
+                              float: right;
+                              background-color: #fffafa;
+                              width: 50%;
+                              height: auto;
+                             }
+.s-output-container-darkmode{
+                             float: right;
+                             background-color: black;
+                             width: 50%;
+                             height: auto;
+                            }
+.s-button-div{
+                  margin-top: 1vmin;
+                  margin-bottom: 1rem;
+                  margin-right: 1rem;
+                 }
+.s-modebuttonspan{
+                  text-align: center;
+                 }
+.s-modebutton{
+              background-color: green;
+              color: yellow;
+              padding: 0.5rem;
+              border: none;
+              border-radius: 1rem;
+              cursor: pointer;
+             }
+.s-homebuttonspan{
+                  float: right;
+                 }
+.s-homebutton{
+              background-color: green;
+              color: yellow;
+              padding: 1vmin;
+              border: none;
+              border-radius: 1rem;
+              cursor: pointer;
+             }
+#s-submittedsection-div{
+                        text-align: center
+}
+#s-resultarea-lightmode{
+                        background-color: #fffafa;
+                        color: black;
+                        border-color: black;
+                        height: 55vh;
+                        width: 30vw;
+                        margin-left: 1vmin;
+                        margin-right: 1vmin;
+                        margin-top: 1rem;
+                        margin-bottom: 1rem;
+                       }
+#s-resultarea-darkmode{
+                       background-color: rgb(4, 4, 56);
+                       color: greenyellow;
+                       border-color: greenyellow;
+                       height: 55vh;
+                       width: 30vw;
+                       margin-left: 1vmin;
+                       margin-right: 1vmin;
+                       margin-top: 1rem;
+                       margin-bottom: 1rem;
+                      }
