@@ -1,4 +1,3 @@
-import React from 'react'
 import '../Data/Home.css'
 import {Link} from 'react-router'
 

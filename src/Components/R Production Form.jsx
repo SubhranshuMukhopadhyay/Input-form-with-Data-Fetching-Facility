@@ -1,5 +1,6 @@
 import React, {useState} from 'react'
 import '../Data/R Production Form.css'
+import { IoMdRefresh } from "react-icons/io";
 import { FaHouse, FaRegMoon, FaSun} from "react-icons/fa6";
 import {Workflows, Batch, Roles, Objecttypes, Status} from './R Form Items'
 
@@ -102,6 +103,7 @@ function RProductionForm() {
       </div>
       <div className={currentmode=='light'? 'r-output-container-lightmode':'r-output-container-darkmode'}>
         <div className='r-button-div'>
+        <span className='r-refreshbuttonspan'><button className='r-refreshbutton' onClick={()=>location.href='/rproductionform'}><IoMdRefresh /></button></span>
           <span className='r-modebuttonspan'><button className='r-modebutton' onClick={mode}>{currentmode == 'light'? <FaRegMoon/>:<FaSun/>}</button></span>
           <span className='r-homebuttonspan'><button className='r-homebutton' onClick={()=>location.href='/'}><FaHouse /></button></span>
         </div>

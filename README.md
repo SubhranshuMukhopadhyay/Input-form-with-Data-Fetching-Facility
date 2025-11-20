@@ -1,19 +1,23 @@
-# React + Vite
+# Input Form with Data Fatching Facility
+This is a replica of production form, which is helpful to keep the work records of production in a office. There are mainly three pages in this project. Home Page, R Production Form & S Production Form. There is also another page has made for wrong search directory. 
+          The project has built based on React Router, base on 'Vite'. All the four pages has imported into 'App.jsx' section.
+<img src ="https://github.com/SubhranshuMukhopadhyay/Input-form-with-Data-Fetching-Facility/blob/main/src/Images/Home%20Page%20.jpg" alt="MLBC">
+<img src ="https://github.com/SubhranshuMukhopadhyay/Input-form-with-Data-Fetching-Facility/blob/main/src/Images/App.jsx.jpg" alt="MLBC">
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Features of the project
+| Element Name | Page Description | Overview |
+| - | - | - |
+| Home Page | This is the first page which is imported into 'App.jsx'. This page is the main directory section to open the two forms. The two forms are connected in this page by their link. And this page has direct access to both of the links. R Production Form & S Production Form | <img src ="https://github.com/SubhranshuMukhopadhyay/Input-form-with-Data-Fetching-Facility/blob/main/src/Images/Home%20Page%20.jpg" alt="MLBC"> |
+| R Production Form | This is the first form in the project. There are two mode options (Light Mode & Dark Mode) are available in the form. There is also a home button available to direct to the 'Home Page'. After filling the form if we press the 'Submit button' below. We will be able to see the last submitted inputs on a textarea on the right side. | <img src ="https://github.com/SubhranshuMukhopadhyay/Input-form-with-Data-Fetching-Facility/blob/main/src/Images/R%20Production%20Form%20in%20lightmode.jpg" alt="MLBC"> <img src ="https://github.com/SubhranshuMukhopadhyay/Input-form-with-Data-Fetching-Facility/blob/main/src/Images/R%20Production%20Form%20in%20darkmode.jpg" alt="MLBC"> |
+| S Production Form | The second and the last form of the project is S Production Form. The behaviour of the form is same as the R Production Form. This form also has dark mode & light mode, where the default mode is lightmode. After submission this form also has the facility to checkout the last submitted data. | <img src="https://github.com/SubhranshuMukhopadhyay/Input-form-with-Data-Fetching-Facility/blob/main/src/Images/S%20Production%20Form%20in%20lightmode.jpg" alt="MLBC"> <img src="https://github.com/SubhranshuMukhopadhyay/Input-form-with-Data-Fetching-Facility/blob/main/src/Images/S%20Production%20Form%20in%20darkmode.jpg" alt="MLBC"> |
+| Not Found Page | If someone made a mistake in the search link, this page will appar. There is a direct link available in the page to direct to the home page. | <img src="https://github.com/SubhranshuMukhopadhyay/Input-form-with-Data-Fetching-Facility/blob/main/src/Images/Not%20Found%20Page.jpg" alt="MLBC">
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## React Compiler
-
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
-
-Note: This will impact Vite dev & build performances.
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-# Input-form-with-Data-Fetching-Facility
+## Coding Info
+| JSX Component Name | Name of the Components | Explaination | Overview |
+| - | - | - | - |
+| Main Compnent | JSX Component : Main.jsx | The react app is connected with router through this component. The 'App.jsx' is wrapped up between 'BrowserRouter'. And this is wapped up under 'Root'. | <img src="https://github.com/SubhranshuMukhopadhyay/Input-form-with-Data-Fetching-Facility/blob/main/src/Images/Main.jsx.jpg" alt="MLBC"> |
+| App Component | JSX Component : App.jsx | All the components are imported in this componet. Where 'Home.jsx' got chosen as root component and 'NotFound.jsx' got chosen as the wrong search component. | <img src ="https://github.com/SubhranshuMukhopadhyay/Input-form-with-Data-Fetching-Facility/blob/main/src/Images/App.jsx.jpg" alt="MLBC"> |
+| Home Component | JSX Component : Home.jsx          CSS Component : Home.css | This is the root component. Direct link to R Production Form & S Production Form are connected here in '<Link>' tag. Connected with react router through '{Link}'. All the styling of the page has done through 'Home.css', which component is available inside 'Data' folder. | <img src="https://github.com/SubhranshuMukhopadhyay/Input-form-with-Data-Fetching-Facility/blob/main/src/Images/Home.jsx.jpg" alt="MLBC"> |
+| Not Found Component | JSX Component : NotFound.jsx          CSS Component : NotFound.css | This component is for wrong search purpose. A Link added in a 'div' under the 'body div' to come directly to the home page. All styling has done inside NotFound.css. | <img src="https://github.com/SubhranshuMukhopadhyay/Input-form-with-Data-Fetching-Facility/blob/main/src/Images/NotFound.jsx.jpg" alt="MLBC"> |
+| R Production Form Component | JSX Component : R Production Form.jsx          CSS Component : R Production Form.css          JS Component : R Form Items.js | Using 'useState' hook darkmode and lightmode got setted up. Two variables hasbeen taken under it 1. currentmode 2. setcurrentmode. For the value fetching also used 'useState'. Where, different values has taken under 'inputs', for grouping. Then for tracking the imputs in the <input/> tag, tracked the values of 'setInputs', using 'onChange' method for each input and select element. And then, pasted the fetched values into a separate <textarea/> tag using the another 'useState' method & added a function to the 'Submit Button'. For select options all the items in the options has imported from another JS Component (R Form Items.js), using 'map' method.| <img src="https://github.com/SubhranshuMukhopadhyay/Input-form-with-Data-Fetching-Facility/blob/main/src/Images/R%20Production%20Form.jsx.jpg" alt="MLBC"> |
+| S Production Form Component | JSX Component : S Production Form.jsx          CSS Component : S Production Form.css          JS Component : S Form Items.js | Using 'useState' hook darkmode and lightmode got setted up. Two variables hasbeen taken under it 1. currentmode 2. setcurrentmode. For the value fetching also used 'useState'. Where, different values has taken under 'inputs', for grouping. Then for tracking the imputs in the <input/> tag, tracked the values of 'setInputs', using 'onChange' method for each input and select element. And then, pasted the fetched values into a separate <textarea/> tag using the another 'useState' method & added a function to the 'Submit Button'. For select options all the items in the options has imported from another JS Component (S Form Items.js), using 'map' method. | <img src="https://github.com/SubhranshuMukhopadhyay/Input-form-with-Data-Fetching-Facility/blob/main/src/Images/S%20Production%20Form.jsx.jpg" alt="MLBC"> |

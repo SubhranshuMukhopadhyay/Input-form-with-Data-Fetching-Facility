@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import '../Data/S Production Form.css'
+import { IoMdRefresh } from "react-icons/io";
 import { FaHouse, FaRegMoon, FaSun} from "react-icons/fa6";
 import {Workflows, Batch, Roles, Status} from './S Form Items'
 
@@ -94,6 +95,7 @@ const [submitted, setSubmitted] = useState("");
             </div>
             <div className={currentmode=='light'? 's-output-container-lightmode':'s-output-container-darkmode'}>
                     <div className='s-button-div'>
+                      <span className='s-refreshbuttonspan'><button className='s-refreshbutton' onClick={()=>location.href='/sproductionform'}><IoMdRefresh /></button></span>
                       <span className='s-modebuttonspan'><button className='s-modebutton' onClick={mode}>{currentmode == 'light'? <FaRegMoon/>:<FaSun/>}</button></span>
                       <span className='s-homebuttonspan'><button className='s-homebutton' onClick={()=>location.href='/'}><FaHouse /></button></span>
                     </div>

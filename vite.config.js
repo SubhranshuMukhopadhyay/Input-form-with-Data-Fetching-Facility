@@ -10,5 +10,5 @@ export default defineConfig({
       },
     }),
   ],
-  base:'/Input-Form-with-Live-Data-Visibility/'
+  base:'/Input-form-with-Data-Fetching-Facility/'
 })
